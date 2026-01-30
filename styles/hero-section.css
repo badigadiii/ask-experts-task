@@ -69,7 +69,8 @@
 }
 
 .header-text {
-    font-family: "Cabin", sans-serif;;
+    font-family: "Cabin", sans-serif;
+    ;
     font-weight: 600;
     font-size: 50px;
     line-height: 130%;
@@ -124,6 +125,11 @@
         background-color 0.3s ease;
 }
 
+.hero__icon {
+    stroke: #181818;
+    transition: stroke 0.3s ease;
+}
+
 .book-button:hover {
     color: white;
     background-color: #181818;
@@ -133,10 +139,6 @@
     cursor: pointer;
 }
 
-.hero__icon {
-    stroke: #181818
-}
-
-.hero__icon:hover {
-    stroke: #fff
+.book-button:hover .hero__icon {
+    stroke: #fff;
 }
