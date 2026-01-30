@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     background-color: grey;
-    background-image: url("static/15.jpg");
+    background-image: url("../static/15.jpg");
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -133,10 +133,10 @@
     cursor: pointer;
 }
 
-.book-button img {
+.hero__icon {
     stroke: #181818
 }
 
-.book-button img:hover {
+.hero__icon:hover {
     stroke: #fff
 }
