@@ -1,0 +1,27 @@
+.header-text {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #181818;
+}
+
+.header-text-25 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    color: #181818;
+}
+
+.regular-text {
+    font-family: "Lato", sans-serif;
+    color: #595566;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+}
+
+.white-color {
+    color: #fff;
+}
