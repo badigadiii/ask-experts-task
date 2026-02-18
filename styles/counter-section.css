@@ -1,0 +1,24 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    height: 10rem;
+    padding: 2rem;
+}
+
+.counter-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    background-color: rgb(235, 238, 164);
+    border-radius: 0.3rem;
+
+    cursor: pointer;
+}
+
+.counter-button:active {
+    transform: scale(0.93);
+}

@@ -1,33 +1,9 @@
-// let temperature = -11;
-// console.log("Сегодня на улице", temperature, "градусов");
+let counter = 0;
 
-// Операторы сравнения
-// == - равняется
-// != - не равняется
-// >, >= - строго больше / не строго больше
-// <, <= - строго меньше / не строго меньше
+button = document.querySelector('.counter-button')
+counterTextElement = document.querySelector('.counter-button-result span')
 
-// while, for
-
-// let i = 0;
-// while (i < 10) {
-//     console.log(i);
-//     i = i + 1;
-// }
-
-// for (let i = 0; i < 10; i += 2) {
-//     console.log(i);
-// }
-
-// arrays
-
-let arr = [
-    1, 2, 3, 4
-];
-
-// 1 задача из варианта
-let sum = 0;
-for (let i = 0; i < arr.length; i += 1) {
-    sum += arr[i];
-}
-console.log(sum / arr.length);
+button.addEventListener("click", () => {
+    counter += 1;
+    counterTextElement.textContent = counter;
+})
