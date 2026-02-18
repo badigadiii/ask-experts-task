@@ -1,0 +1,25 @@
+.form {
+    padding: 2rem;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+label p {
+    margin: 0 0 0.5rem 0;
+}
+
+input[type="text"],
+input[type="tel"] {
+    border: 1px solid;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+input:hover {
+    background-color: #ccc;
+}
