@@ -8,7 +8,6 @@
 .slider-container {
     display: flex;
     height: 200px;
-    border: 1px solid #bababa;
     transition: transform 0.2s ease-in-out;
 }
 

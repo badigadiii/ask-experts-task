@@ -7,13 +7,24 @@ dots = document.querySelectorAll('.dots-container .dot')
 slidesCount = sliderContainder.querySelectorAll('.slide').length;
 currentSlide = 0;
 
-dots[currentSlide].classList.add('active');
+for (let i = 0; i < slidesCount; ++i) {
+    if (i == 0) {
+        dots[i].classList.add('active');
+    }
+
+    dots[i].addEventListener('click', () => goToSlide(i));
+}
 
 function updateSlider() {
     sliderContainder.style.transform = `translateX(-${currentSlide * 100}%)`;
 
     dots.forEach(dot => dot.classList.remove('active'));
     dots[currentSlide].classList.add('active');
+}
+
+function goToSlide(slideIndex) {
+    currentSlide = slideIndex;
+    updateSlider();
 }
 
 function prevSlide() {
